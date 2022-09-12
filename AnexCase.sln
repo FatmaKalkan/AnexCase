@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnexCase", "AnexCase\AnexCase.csproj", "{AE276E56-AB3A-4DD1-B521-66CF8F7765BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnexCase.Web", "AnexCase.Web\AnexCase.Web.csproj", "{B43A728C-E156-40F2-B421-9650F6C118D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE276E56-AB3A-4DD1-B521-66CF8F7765BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE276E56-AB3A-4DD1-B521-66CF8F7765BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE276E56-AB3A-4DD1-B521-66CF8F7765BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE276E56-AB3A-4DD1-B521-66CF8F7765BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43A728C-E156-40F2-B421-9650F6C118D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43A728C-E156-40F2-B421-9650F6C118D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43A728C-E156-40F2-B421-9650F6C118D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43A728C-E156-40F2-B421-9650F6C118D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1EF57F0-3606-4F31-998C-57AD8AC89D81}
+	EndGlobalSection
+EndGlobal

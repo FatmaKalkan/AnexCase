@@ -1,0 +1,30 @@
+﻿@{
+    @model List<Result>
+}
+<div>
+    <div >
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <td>HotelId</td>
+                <td>HotelName</td>
+                <td>Date</td>
+                <td>TotalPax</td>
+                <td>ReservationNumber</td>
+            </tr>
+        </thead>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Hoteld</td>
+                <td>@item.HotelName</td>
+                <td>@item.Date</td>
+                <td>@item.TotalPax</td>
+                <td>@item.ReservationNumber</td>
+            </tr>
+        }
+    </table>
+</div>
+</table>
